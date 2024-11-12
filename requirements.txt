@@ -1,0 +1,25 @@
+# Core numerical and scientific packages
+numpy
+scipy
+
+# Image processing
+tifffile
+
+# Noise generation
+noise
+
+# Progress bar
+tqdm
+
+# Latin Hypercube Sampling
+scikit-learn
+
+# Testing libraries
+pytest           # For testing and test discovery (optional, but recommended)
+unittest2        # Backport of unittest, only necessary if using older Python versions
+
+# Optional libraries for advanced sampling
+pyDOE2            # For Latin Hypercube Sampling and other designs (optional)
+
+# Logging and file handling
+pandas           # Optional, for easier CSV handling if needed in place of Python's csv module
